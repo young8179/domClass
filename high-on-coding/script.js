@@ -69,7 +69,7 @@ headingSecondBox.style.margin = "2% 2% 0% 2%"
 
 //second box content
 var textContent = document.createElement("p");
-textContent.textContent = "In addition to HTML and CSS, a web page can include JavaScript code. JavaScript is able to modify the structure, content, and presentation of a web page without the need to reload. Browsers make this possible through two programming interfaces: the DOM and the BOM. The DOM is the primary way that your JavaScript code will interact with a web page. Specifically, the browser provides a document variable that has properties and methods you can use to make changes to the page"
+textContent.textContent = "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page. MDN - Document Object Model In addition to HTML and CSS, a web page can include JavaScript code. JavaScript is able to modify the structure, content, and presentation of a web page without the need to reload. Browsers make this possible through two programming interfaces: the DOM and the BOM. The DOM is the primary way that your JavaScript code will interact with a web page. Specifically, the browser provides a document variable that has properties and methods you can use to make changes to the page"
 div1.appendChild(textContent);
 textContent.style.margin = "2% 2% 2% 2%";
 
